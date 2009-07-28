@@ -58,15 +58,20 @@ Conventions are great, but need to add your own stylesheets?
 <%= stylesheets :include => "reset" %>
 <%= stylesheets :include => ["reset", "fonts"] %>
 
+You can also set a general subpath for your stylesheets:
+<%= stylesheets :path => "compiled" %>
+
+This will look for the stylesheets on the /public/stylesheets/compiled
+directory, respecting the previous mentioned conventions.
 
 Use nested stylesheets (optional)
 =================================
 
-For bigger projects, you might wish to break your stylesheets into separate 
+For bigger projects, you might wish to break your stylesheets into separate
 directories.
 
-To use nested stylesheets, just create subdirectories in public/stylesheets 
-for each of your controllers, and then add stylesheets for individual 
+To use nested stylesheets, just create subdirectories in public/stylesheets
+for each of your controllers, and then add stylesheets for individual
 actions you wish to style.
 
 - Styles for an entire controller should be stored in controller.css
@@ -93,3 +98,4 @@ Feedback
 ========
 
 Comments and patches welcome at http://the.railsi.st.
+
