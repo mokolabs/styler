@@ -3,6 +3,8 @@ Styler
 
 Styler is a plugin which makes it easier to include stylesheets in your Rails application. That way, you can think less about stylesheet configuration and more about styling.
 
+Styler works by replacing #stylesheet_link_tag, the default asset tag helper for Rails, with a different method: #stylesheets.
+
 Usage
 =====
 
