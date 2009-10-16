@@ -85,7 +85,7 @@ You can also set a general subpath for all stylesheets:
 
     <%= stylesheets :path => "compiled" %>
 
-This will look for the stylesheets in the `/public/stylesheets/compiled` directory.
+This will force Styler to only load stylesheets from the `/public/stylesheets/compiled` directory.
 
 
 Generator
