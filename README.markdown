@@ -3,11 +3,10 @@ Styler
 
 Styler is a plugin which makes it easier to include stylesheets in your Rails application. That way, you can think less about stylesheet configuration and more about styling.
 
-
 Usage
 =====
 
-To use Styler, just update your layout(s) with this code:
+To use Styler, just update your layouts with this code:
 
     <head>
     <title>the.rails.ist</title>
@@ -30,8 +29,7 @@ Styler will then include your stylesheets automatically:
     <![endif]-->
     </head>
 
-Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections.
-
+Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections without adding tons of stylesheet_link_tag calls.
 
 Organize your stylesheets
 =========================
