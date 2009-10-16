@@ -1,7 +1,7 @@
 Styler
 ======
 
-Styler is a plugin which makes it easier to include stylesheets in your Rails application. That way, you can think less about stylesheet configuration and more about styling.
+Styler is a plugin which makes it easier to load stylesheets for your Rails application. That way, you can think less about stylesheet configuration and more about styling.
 
 Styler works by replacing `stylesheet_link_tag`, the default stylesheet tag helper for Rails, with an improved helper called `stylesheets`.
 
@@ -31,20 +31,20 @@ Styler will then include your stylesheets automatically:
     <![endif]-->
     </head>
 
-Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections without adding tons of stylesheet_link_tag calls.
+Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections without adding tons of `stylesheet_link_tag` calls.
 
 Organize your stylesheets
 =========================
 
 Styler uses a simple set of conventions:
 
-- Styles for your entire application should be stored in application.css
-- Styles for specific controllers should be stored in controller.css
-- Styles for specific actions should be stored in controller_action.css
-- Styles for Internet Explorer 7 should be stored in ie8.css
-- Styles for Internet Explorer 7 should be stored in ie7.css
-- Styles for Internet Explorer 6 should be stored in ie6.css
-- Styles for iPhone should be stored in iphone.css
+- Styles for your entire application should be stored in `application.css`
+- Styles for specific controllers should be stored in `controller.css`
+- Styles for specific actions should be stored in `controller_action.css``
+- Styles for Internet Explorer 7 should be stored in `ie8.css`
+- Styles for Internet Explorer 7 should be stored in `ie7.css``
+- Styles for Internet Explorer 6 should be stored in `ie6.css`
+- Styles for iPhone should be stored in `iphone.css``
 
 When used in combination, these conventions can scale up to support pretty
 big applications.
@@ -64,10 +64,10 @@ Use nested stylesheets (optional)
 
 For bigger projects, you might wish to break your stylesheets into separate directories.
 
-To use nested stylesheets, just create subdirectories in public/stylesheets for each of your controllers, and then add separate stylesheets for individual actions you wish to style.
+To use nested stylesheets, just create subdirectories in `public/stylesheets` for each of your controllers, and then add separate stylesheets for individual actions you wish to style.
 
-- Styles for an entire controller should be stored in controller.css
-- Styles for specific actions should be stored in controller/action.css
+- Styles for an entire controller should be stored in `controller.css`
+- Styles for specific actions should be stored in `controller/action.css``
 
 
 Generator
