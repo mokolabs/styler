@@ -5,6 +5,7 @@ module Styler
     # Applicaton defaults
     stylesheets = ["application"]
 
+    # Additional sheets (if requested)
     if options.respond_to?(:keys) && options[:include]
       if options[:include].respond_to?(:entries) # Array?
         options[:include].each do |stylesheet|
@@ -14,7 +15,7 @@ module Styler
         stylesheets << options[:include]        # String
       end
     end
-  
+
     # Controller/action sheets
     stylesheets << "#{controller.controller_name}"
     stylesheets << "#{controller.controller_name}_#{controller.action_name}"
@@ -29,7 +30,8 @@ module Styler
     stylesheets << "ie6"
 
     # Add links to header
-    stylesheets.collect! do |name| 
+    stylesheets.collect! do |name|
+      name = "#{options[:path]}/#{name}" unless options[:path].nil?
       if File.exist?("#{RAILS_ROOT}/public/stylesheets/#{name}.css")
         case name
         when "ie8"
