@@ -20,6 +20,9 @@ module Styler
     stylesheets << "#{controller.controller_name}_#{controller.action_name}"
     stylesheets << "#{controller.controller_name}/#{controller.action_name}"
 
+    # iPhone
+    stylesheets << "iphone"
+    
     # IE6 / IE7 / IE8
     stylesheets << "ie8"
     stylesheets << "ie7"
