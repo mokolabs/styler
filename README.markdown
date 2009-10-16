@@ -91,4 +91,4 @@ Special thanks to Rob Kaufman (for adding Ruby 1.9 compatibility).
 Feedback
 ========
 
-Comments and patches welcome at http://the.railsi.st.
+Comments and patches welcome at [http://the.railsi.st](http://the.railsi.st).
