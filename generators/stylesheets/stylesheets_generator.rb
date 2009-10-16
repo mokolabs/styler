@@ -5,7 +5,7 @@ class StylesheetsGenerator < Rails::Generator::Base
       m.directory File.join('public/stylesheets')
 
       # Include default stylesheets
-      stylesheets = ["ie7", "ie6"]
+      stylesheets = ["ie8", "ie7", "ie6"]
 
       # Add stylesheets for each controller
       controllers = Dir::open("#{RAILS_ROOT}/app/controllers").entries
