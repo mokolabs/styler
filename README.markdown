@@ -96,12 +96,12 @@ If you add a new controller, just run the generator again and a new stylesheet f
 Frequently Asked Questions
 ==========================
 
-Does Style work with Sass?
---------------------------
+### Does Style work with Sass?
+
 Yes, Styler works great with Sass. Just make sure your generated stylesheets are saved to `public/stylesheets` and you'll be fine. (Note: there is no support for Sass in Styler's generator, so you'll need to create your Sass files like normal.)
 
-Does Styler do asset bundling?
-------------------------------
+### Does Styler do asset bundling?
+
 Not at the present time. Asset bundling can get complicated and it's definitely outside the intended scope of this application. If asset bundling is critical to your application, you can always revert back to using standard asset helpers or even write your own.
 
 
