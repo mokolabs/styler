@@ -17,7 +17,7 @@ To install, just add Styler to your `vendor/plugins` directory:
 Usage
 =====
 
-To use Styler, just update your layouts with this code:
+To use Styler, update your layouts with this code:
 
     <head>
     <title>the.rails.ist</title>
@@ -42,6 +42,7 @@ Styler will then include your stylesheets automatically:
 
 Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections without adding tons of `stylesheet_link_tag` calls.
 
+
 Organize your stylesheets
 =========================
 
@@ -58,7 +59,6 @@ Styler uses a simple set of conventions:
 When used in combination, these conventions can scale up to support pretty
 big applications.
 
-
 Include additional stylesheets
 ==============================
 
@@ -66,6 +66,8 @@ Conventions are great, but need to add your own stylesheets?
 
     <%= stylesheets :include => "reset" %>
     <%= stylesheets :include => ["reset", "fonts"] %>
+
+Any additional stylesheets will be inserted before Internet Explorer and iPhone stylesheets, which means you'll still be able to apply tweaks and bug fixes.
 
 
 Use nested stylesheets (optional)
