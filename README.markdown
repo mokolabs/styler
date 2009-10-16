@@ -73,7 +73,7 @@ To use nested stylesheets, just create subdirectories in `public/stylesheets` fo
 Generator
 =========
 
-Styler also includes a generator that will create a default set of stylesheets (application.css, ie8.css, ie7.css, ie6.css, and iphone.css) and a separate stylesheet for each controller in your application.
+Styler also includes a generator that will create a default set of stylesheets (`application.css`, `ie8.css`, `ie7.css`, `ie6.css`, and `iphone.css`) and a separate stylesheet for each controller in your application.
 
 To use the generator, run this command in your terminal:
 
