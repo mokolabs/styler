@@ -51,7 +51,7 @@ Styler uses a simple set of conventions:
 - Styles for your entire application should be stored in `application.css`
 - Styles for specific controllers should be stored in `controller.css`
 - Styles for specific actions should be stored in `controller_action.css`
-- Styles for Internet Explorer 7 should be stored in `ie8.css`
+- Styles for Internet Explorer 8 should be stored in `ie8.css`
 - Styles for Internet Explorer 7 should be stored in `ie7.css`
 - Styles for Internet Explorer 6 should be stored in `ie6.css`
 - Styles for iPhone should be stored in `iphone.css`
