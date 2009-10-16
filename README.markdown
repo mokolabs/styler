@@ -1,7 +1,7 @@
 Styler
 ======
 
-Styler is designed to DRY up the process of including and generating stylesheets, so you can think less about stylesheet configuration and more about styling.
+Styler is designed to DRY up the process of including stylesheets, so you can think less about stylesheet configuration and more about styling.
 
 
 Usage
