@@ -5,10 +5,13 @@ module Styler
     # Applicaton defaults
     stylesheets = ["application"]
 
-    # Additional sheets (if requested)
-    if options[:include]
-      options[:include].each do |stylesheet|
-        stylesheets << stylesheet
+    if options.respond_to?(:keys) && options[:include]
+      if options[:include].respond_to?(:entries) # Array?
+        options[:include].each do |stylesheet|
+          stylesheets << stylesheet
+        end
+      else
+        stylesheets << options[:include]        # String
       end
     end
   
