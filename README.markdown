@@ -5,6 +5,15 @@ Styler is a plugin which makes it easier to load stylesheets for your Rails appl
 
 Styler works by replacing `stylesheet_link_tag`, the default stylesheet tag helper for Rails, with an improved helper called `stylesheets`.
 
+
+Install
+=======
+
+To install, just add Styler to your `vendor/plugins` directory:
+
+    script/plugin install git://github.com/mokolabs/styler.git
+
+
 Usage
 =====
 
@@ -80,12 +89,6 @@ To use the generator, run this command in your terminal:
     script/generate stylesheets
 
 If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets already in your stylesheets directory.)
-
-
-Install
-=======
-
-    script/plugin install git://github.com/mokolabs/styler.git
 
 
 Contributors
