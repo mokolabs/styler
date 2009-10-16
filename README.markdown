@@ -81,6 +81,12 @@ To use nested stylesheets, just create subdirectories in `public/stylesheets` fo
 - Styles for an entire controller should be stored in `controller.css`
 - Styles for specific actions should be stored in `controller/action.css`
 
+You can also set a general subpath for all stylesheets:
+
+    <%= stylesheets :path => "compiled" %>
+
+This will look for the stylesheets in the `/public/stylesheets/compiled` directory.
+
 
 Generator
 =========
