@@ -40,11 +40,11 @@ Styler uses a simple set of conventions:
 
 - Styles for your entire application should be stored in `application.css`
 - Styles for specific controllers should be stored in `controller.css`
-- Styles for specific actions should be stored in `controller_action.css``
+- Styles for specific actions should be stored in `controller_action.css`
 - Styles for Internet Explorer 7 should be stored in `ie8.css`
-- Styles for Internet Explorer 7 should be stored in `ie7.css``
+- Styles for Internet Explorer 7 should be stored in `ie7.css`
 - Styles for Internet Explorer 6 should be stored in `ie6.css`
-- Styles for iPhone should be stored in `iphone.css``
+- Styles for iPhone should be stored in `iphone.css`
 
 When used in combination, these conventions can scale up to support pretty
 big applications.
@@ -67,7 +67,7 @@ For bigger projects, you might wish to break your stylesheets into separate dire
 To use nested stylesheets, just create subdirectories in `public/stylesheets` for each of your controllers, and then add separate stylesheets for individual actions you wish to style.
 
 - Styles for an entire controller should be stored in `controller.css`
-- Styles for specific actions should be stored in `controller/action.css``
+- Styles for specific actions should be stored in `controller/action.css`
 
 
 Generator
