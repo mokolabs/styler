@@ -89,6 +89,12 @@ stylesheet for the controller will be created. (Styler will safely ignore
 any existing stylesheets.)
 
 
+Contributors
+============
+
+Special thanks to Rob Kaufman (for adding Ruby 1.9 compatibility).
+
+
 Feedback
 ========
 
