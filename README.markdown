@@ -1,7 +1,7 @@
 Styler
 ======
 
-Styler is designed to DRY up the process of including stylesheets, so you can think less about stylesheet configuration and more about styling.
+Styler is a plugin which makes it easier to include stylesheets in your Rails application. That way, you can think less about stylesheet configuration and more about styling.
 
 
 Usage
