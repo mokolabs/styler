@@ -79,7 +79,7 @@ To use the generator, run this command in your terminal:
 
     script/generate stylesheets
 
-If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets.)
+If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets already in your stylesheets directory.)
 
 
 Contributors
