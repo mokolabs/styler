@@ -115,7 +115,7 @@ Not at the present time. Asset bundling can get complicated and it's definitely 
 Contributors
 ============
 
-Special thanks to Rob Kaufman (for adding Ruby 1.9 compatibility).
+Special thanks to Rob Kaufman (for adding Ruby 1.9 compatibility) and Fabio Kreusch (for adding a custom :path option).
 
 
 Feedback
