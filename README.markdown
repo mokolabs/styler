@@ -30,9 +30,7 @@ Styler will then include your stylesheets automatically:
     <![endif]-->
     </head>
 
-Styler will also dynamically include stylesheets for each of your
-controllers (if such stylesheets are present), so you can keep your styles
-organized into logical sections.
+Styler will also dynamically include stylesheets for each of your controllers (if such stylesheets are present), so you can keep your styles organized into logical sections.
 
 
 Organize your stylesheets
@@ -64,12 +62,9 @@ Conventions are great, but need to add your own stylesheets?
 Use nested stylesheets (optional)
 =================================
 
-For bigger projects, you might wish to break your stylesheets into separate 
-directories.
+For bigger projects, you might wish to break your stylesheets into separate directories.
 
-To use nested stylesheets, just create subdirectories in public/stylesheets 
-for each of your controllers, and then add stylesheets for individual 
-actions you wish to style.
+To use nested stylesheets, just create subdirectories in public/stylesheets for each of your controllers, and then add separate stylesheets for individual actions you wish to style.
 
 - Styles for an entire controller should be stored in controller.css
 - Styles for specific actions should be stored in controller/action.css
@@ -78,17 +73,13 @@ actions you wish to style.
 Generator
 =========
 
-Styler also includes a generator that will create a default set of
-stylesheets (application.css, ie8.css, ie7.css, ie6.css, and iphone.css) and
-a separate stylesheet for each controller in your application.
+Styler also includes a generator that will create a default set of stylesheets (application.css, ie8.css, ie7.css, ie6.css, and iphone.css) and a separate stylesheet for each controller in your application.
 
 To use the generator, run this command in your terminal:
 
-script/generate stylesheets
+    script/generate stylesheets
 
-If you add a new controller, just run the generator again and a new
-stylesheet for the controller will be created. (Styler will safely ignore
-any existing stylesheets.)
+If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets.)
 
 
 Contributors
