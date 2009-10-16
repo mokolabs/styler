@@ -93,6 +93,16 @@ To use the generator, run this command in your terminal:
 If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets already in your stylesheets directory.)
 
 
+Frequently Asked Questions
+==========================
+
+Q. Does Style work with Sass?
+A. Yes, Styler works great with Sass. Just make sure your generated stylesheets are saved to `public/stylesheets` and you'll be fine. (Note: there is no support for Sass in Styler's generator, so you'll need to create your Sass files like normal.)
+
+Q. Does Styler do asset bundling?
+A. Not at the present time. Asset bundling can get complicated and it's definitely outside the intended scope of this application. If asset bundling is critical to your application, you can always revert back to using standard asset helpers or even write your own.
+
+
 Contributors
 ============
 
