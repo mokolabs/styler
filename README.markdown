@@ -82,6 +82,12 @@ To use the generator, run this command in your terminal:
 If you add a new controller, just run the generator again and a new stylesheet for the controller will be created. (Styler will safely ignore any existing stylesheets already in your stylesheets directory.)
 
 
+Install
+=======
+
+    script/plugin install git://github.com/mokolabs/styler.git
+
+
 Contributors
 ============
 
