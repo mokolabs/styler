@@ -9,26 +9,26 @@ Usage
 
 To use Styler, just update your layout(s) with this code:
 
-        <head>
-        <title>the.rails.ist</title>
-        <%= stylesheets %>
-        </head>
+    <head>
+    <title>the.rails.ist</title>
+    <%= stylesheets %>
+    </head>
 
 Styler will then include your stylesheets automatically:
 
-        <head>
-        <title>the.rails.ist</title>
-        <link href="/stylesheets/application.css?1170968897" />
-        <!--[if IE 8]>
-        <link href="/stylesheets/ie8.css?1170968897" />
-        <![endif]-->
-        <!--[if IE 7]>
-        <link href="/stylesheets/ie7.css?1170968897" />
-        <![endif]-->
-        <!--[if IE 6]>
-        <link href="/stylesheets/ie6.css?1170968897" />
-        <![endif]-->
-        </head>
+    <head>
+    <title>the.rails.ist</title>
+    <link href="/stylesheets/application.css?1170968897" />
+    <!--[if IE 8]>
+    <link href="/stylesheets/ie8.css?1170968897" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="/stylesheets/ie7.css?1170968897" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <link href="/stylesheets/ie6.css?1170968897" />
+    <![endif]-->
+    </head>
 
 Styler will also dynamically include stylesheets for each of your
 controllers (if such stylesheets are present), so you can keep your styles
@@ -57,8 +57,8 @@ Include additional stylesheets
 
 Conventions are great, but need to add your own stylesheets?
 
-        <%= stylesheets :include => "reset" %>
-        <%= stylesheets :include => ["reset", "fonts"] %>
+    <%= stylesheets :include => "reset" %>
+    <%= stylesheets :include => ["reset", "fonts"] %>
 
 
 Use nested stylesheets (optional)
