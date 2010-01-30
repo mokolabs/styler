@@ -40,6 +40,8 @@ module Styler
           "<!--[if IE 7]>" + stylesheet_link_tag(name) + "<![endif]-->"
         when "ie6"
           "<!--[if IE 6]>" + stylesheet_link_tag(name) + "<![endif]-->"
+        when "iphone"
+          stylesheet_link_tag(name).gsub(/screen/,"only screen and (max-device-width: 480px)")
         else
           stylesheet_link_tag(name)
         end
