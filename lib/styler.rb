@@ -23,7 +23,7 @@ module Styler
 
     # iPhone
     stylesheets << "iphone"
-    
+
     # IE6 / IE7 / IE8
     stylesheets << "ie8"
     stylesheets << "ie7"
@@ -47,7 +47,8 @@ module Styler
         end
       end
     end
-    stylesheets.compact.join("\n")
+    stylesheets.compact.join("\n").html_safe
   end
 
 end
+
