@@ -32,7 +32,7 @@ module Styler
     # Add links to header
     stylesheets.collect! do |name|
       name = "#{options[:path]}/#{name}" unless options[:path].nil?
-      if File.exist?("#{RAILS_ROOT}/public/stylesheets/#{name}.css")
+      if File.exist?(File.join(ActionView::Helpers::AssetTagHelper.const_get("STYLESHEETS_DIR"), "#{name}.css"))
         case name
         when "ie8"
           "<!--[if IE 8]>" + stylesheet_link_tag(name) + "<![endif]-->"
