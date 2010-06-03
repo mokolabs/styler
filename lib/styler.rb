@@ -47,7 +47,7 @@ module Styler
         end
       end
     end
-    stylesheets.compact.join("\n").html_safe
+    stylesheets.compact.join("\n")
   end
 
 end
